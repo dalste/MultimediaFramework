@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MultimediaFrameWork - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\steven\LOCALS~1\Temp\RSPFF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/MultimediaFrameWork.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMF3DObject.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMF3DSLoader.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFApp.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFAppManager.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFBHVNode.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFBHVObjectContainer.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFBHVTree.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFBitmapLoader.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFDebug.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFIElementButton.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFIElementFrame.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFImage.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFInterfaceElement.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFLogFiles.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFOGLWindow.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFSceneNode.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFString.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFStringFunctions.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFStringlist.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFTGALoader.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFWindow.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFXml.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\MMFXmlPage.cpp"
+"C:\portfolio\library\MMFramework\MultimediaFrameWorkV1_b\timer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\steven\LOCALS~1\Temp\RSPFF.tmp" 
+Creating temporary file "C:\DOCUME~1\steven\LOCALS~1\Temp\RSP100.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winmm.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib shlwapi.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MultimediaFrameWork.pdb" /debug /machine:I386 /out:"Debug/MultimediaFrameWork.exe" /pdbtype:sept 
+.\Debug\MMF3DObject.obj
+.\Debug\MMF3DSLoader.obj
+.\Debug\MMFApp.obj
+.\Debug\MMFAppManager.obj
+.\Debug\MMFBHVNode.obj
+.\Debug\MMFBHVObjectContainer.obj
+.\Debug\MMFBHVTree.obj
+.\Debug\MMFBitmapLoader.obj
+.\Debug\MMFDebug.obj
+.\Debug\MMFIElementButton.obj
+.\Debug\MMFIElementFrame.obj
+.\Debug\MMFImage.obj
+.\Debug\MMFInterfaceElement.obj
+.\Debug\MMFLogFiles.obj
+.\Debug\MMFOGLWindow.obj
+.\Debug\MMFSceneNode.obj
+.\Debug\MMFString.obj
+.\Debug\MMFStringFunctions.obj
+.\Debug\MMFStringlist.obj
+.\Debug\MMFTGALoader.obj
+.\Debug\MMFWindow.obj
+.\Debug\MMFXml.obj
+.\Debug\MMFXmlPage.obj
+.\Debug\timer.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\steven\LOCALS~1\Temp\RSP100.tmp"
+<h3>Output Window</h3>
+Compiling...
+MMF3DObject.cpp
+MMF3DSLoader.cpp
+MMFApp.cpp
+MMFAppManager.cpp
+MMFBHVNode.cpp
+MMFBHVObjectContainer.cpp
+MMFBHVTree.cpp
+MMFBitmapLoader.cpp
+MMFDebug.cpp
+c:\portfolio\library\mmframework\multimediaframeworkv1_b\mmfbitmaploader.cpp(79) : warning C4715: 'MMFBitmapLoader::LoadBMP' : not all control paths return a value
+MMFIElementButton.cpp
+MMFIElementFrame.cpp
+c:\portfolio\library\mmframework\multimediaframeworkv1_b\mmfielementbutton.cpp(194) : warning C4715: 'MMFIElementButton::AddFrame' : not all control paths return a value
+MMFImage.cpp
+MMFInterfaceElement.cpp
+MMFLogFiles.cpp
+MMFOGLWindow.cpp
+c:\portfolio\library\mmframework\multimediaframeworkv1_b\mmfoglwindow.cpp(98) : warning C4508: 'drawFloor' : function should return a value; 'void' return type assumed
+MMFSceneNode.cpp
+MMFString.cpp
+MMFStringFunctions.cpp
+MMFStringlist.cpp
+MMFTGALoader.cpp
+MMFWindow.cpp
+MMFXml.cpp
+MMFXmlPage.cpp
+c:\portfolio\library\mmframework\multimediaframeworkv1_b\mmfxml.cpp(76) : warning C4715: 'MMFXml::GetNamedItemValue' : not all control paths return a value
+timer.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\steven\LOCALS~1\Temp\RSP103.tmp" with contents
+[
+/nologo /o"Debug/MultimediaFrameWork.bsc" 
+.\Debug\MMF3DObject.sbr
+.\Debug\MMF3DSLoader.sbr
+.\Debug\MMFApp.sbr
+.\Debug\MMFAppManager.sbr
+.\Debug\MMFBHVNode.sbr
+.\Debug\MMFBHVObjectContainer.sbr
+.\Debug\MMFBHVTree.sbr
+.\Debug\MMFBitmapLoader.sbr
+.\Debug\MMFDebug.sbr
+.\Debug\MMFIElementButton.sbr
+.\Debug\MMFIElementFrame.sbr
+.\Debug\MMFImage.sbr
+.\Debug\MMFInterfaceElement.sbr
+.\Debug\MMFLogFiles.sbr
+.\Debug\MMFOGLWindow.sbr
+.\Debug\MMFSceneNode.sbr
+.\Debug\MMFString.sbr
+.\Debug\MMFStringFunctions.sbr
+.\Debug\MMFStringlist.sbr
+.\Debug\MMFTGALoader.sbr
+.\Debug\MMFWindow.sbr
+.\Debug\MMFXml.sbr
+.\Debug\MMFXmlPage.sbr
+.\Debug\timer.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\steven\LOCALS~1\Temp\RSP103.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MultimediaFrameWork.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,10 @@
+// 
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "MMFStringFunctions.h"
+
+
+
+void bstrToLptStr(_bstr_t bsi, LPTSTR pStr){
+}
